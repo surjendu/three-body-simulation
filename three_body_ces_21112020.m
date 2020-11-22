@@ -3,8 +3,6 @@ clc,
 close all
 %input--------
 
-%please provide input in the matlab function also
-ker_filename='hc(br81)3-ces-3body_non_com.csv';
 
 m1=80.916;    % mass of the first ion
 m2=80.916;    % mass of the second ion
