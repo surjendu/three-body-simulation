@@ -121,9 +121,6 @@ ylabel('ker / ev');
 legend('ke1+ke2+ke3','ke1','ke2','ke3','pe','pe+ke','Location','best');
 legend('boxoff');
 
-ker=[t ke ke1 ke2 ke3 pe peke (r12./angs2au) ];  % t in fs, ke,ke1,ke2,pe in eV, r in Angstorm
-dlmwrite(ker_filename, ker);
-
  
  ke1(end)
  ke2(end)
